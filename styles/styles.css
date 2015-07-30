@@ -1,0 +1,213 @@
+.ocean {
+  width: 100%;
+  height: 40em;
+  background: rgba(255, 255, 255, 1) url("../sea-black-and-white-water-ocean.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+}
+
+.front-header {
+  z-index: 1;
+  display: inline-block;
+}
+
+.front-h1 {
+  z-index: 1;
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+  margin-top: 0.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.front-h2 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.4em;
+}
+
+.icon-nav {
+  text-align: center;
+}
+
+.icon-nav i {
+  font-size: 2.3em;
+  padding: 0.65em;
+}
+
+.icon-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-nav i:hover {
+  color: #bde2de;
+}
+
+.main-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.categories a {
+  text-decoration: none;
+  color: black;
+}
+
+.front-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.front-footer i {
+  color: #bde2de;
+  font-size: 2em;
+  margin-left: 48%;
+  margin-right: 48%;
+  padding-bottom: 1em;
+}
+
+.about-me-page {
+  position: absolute;
+  z-index: 100;
+  background-color: #FFFFFE;
+  margin-top: 40em;
+  height: 40em;
+}
+
+.about-me-div {
+  margin-top: 4em;
+  margin-right: 2em;
+  margin-bottom: 7em;
+}
+
+.about-me-words {
+  padding-top: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #6d6b6a;
+}
+
+.about-me-words a {
+  text-decoration: none;
+  color: #eb7260;
+}
+
+.about-me-words a:hover {
+  color: #bde2de;
+}
+
+.my-photo {
+  float: left;
+  margin-left: 2em;
+}
+
+.me {
+  height: 30em;
+  width: 20em;
+  padding: 1em;
+  padding-right: 2em;
+}
+
+.portfolio {
+  background-color: #FFFFFE;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.portfolio-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.da-thumbs {
+	list-style: none;
+	width: 884px;
+	height: 500px;
+	position: relative;
+	margin-left: 7em;
+	padding: 0;
+}
+
+.da-thumbs li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+  width: 16em;
+  height: 13em;
+}
+
+.da-thumbs li a {
+	overflow: hidden;
+}
+
+.da-thumbs li a div {
+	position: absolute;
+	background: #eb7260;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+}
+
+.da-thumbs li a div span {
+	line-height: 1.2em;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	display: block;
+	margin: 40px 20px 20px 20px;
+	color: rgba(255,255,255,0.9);
+}
+
+#slash {
+	font-size: 2em;
+	margin-top: -0.5em;
+}
+
+.contact {
+  background-color: #FFFFFE;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+.contact-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.contact p {
+  padding-top: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #6d6b6a;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #eb7260;
+}
+
+.contact a:hover {
+  color: #bde2de;
+}
